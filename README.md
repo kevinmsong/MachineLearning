@@ -6,4 +6,4 @@
 
 - LinearRegression.ipynb contains code that implements a linear regression, from scratch, without using scikit-learn.
 
-- RealEstateForecasting.zip contains an IPython notebook that implements code for predicting, using an XGBoost regression model, 2021 full cash values from years 2016-19 and 2020 in the Tuscon, Arizona real estate market.
+- RealEstateForecasting contains an encoded XGBoost regression model and an IPython notebook that implements code for predicting 2021 full cash values from 2016-19 and 2020 data in the Tuscon, Arizona real estate market.
