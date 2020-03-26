@@ -8,4 +8,4 @@
 
 - LinearRegression.ipynb contains code that implements a linear regression, from scratch, without using scikit-learn.
 
-- RetailDemandForecasting.ipynb contains work that forecasts weekly companywide sales with a 2011-2012 Walmart retail dataset.
+- RetailDemandForecasting.ipynb contains work on feature engineering and demand forecasting of weekly companywide sales with a 2011-2012 Walmart retail dataset.
