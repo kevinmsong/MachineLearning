@@ -11,3 +11,5 @@
 - LinearRegression.ipynb contains code that implements a linear regression, from scratch, without using scikit-learn.
 
 - RetailDemandForecasting.ipynb contains work on feature engineering and demand forecasting of weekly companywide sales with a 2011-2012 Walmart retail dataset.
+
+- SongAnalytica.ipynb contains code that prototypes using a statistical model (XGBoost) to predict whether a U.S. president will win re-election, based on approval rating features. Inspired by the following Wikipedia article: https://en.wikipedia.org/wiki/United_States_presidential_approval_rating
