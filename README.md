@@ -4,12 +4,12 @@
 
 - AnthemMiniProject contains a data science project for predicting the chance of insurance policy renewals with XGBoost.
 
-- CostEffectiveMaintenance.ipynb contains code that exhibits data wrangling/feature engineering skills, and trains an XGBoost classifier to determine whether corporate truck maintenances from a real-life dataset (hosted on a MySQL server) are either cost-effective or cost-ineffective.
+- CostEffectiveMaintenance contains code that exhibits data wrangling/feature engineering skills, and trains an XGBoost classifier to determine whether corporate truck maintenances from a real-life dataset (hosted on a MySQL server) are either cost-effective or cost-ineffective.
 
-- KNearestNeighbors.ipynb contains code that implements, from scratch, a two-dimensional k-nearest neighbors regression algorithm.
+- KNearestNeighbors contains code that implements, from scratch, a two-dimensional k-nearest neighbors regression algorithm.
 
-- LinearRegression.ipynb contains code that implements a linear regression, from scratch, without using scikit-learn.
+- LinearRegression contains code that implements a linear regression, from scratch, without using scikit-learn.
 
-- RetailDemandForecasting.ipynb contains work on feature engineering and demand forecasting of weekly companywide sales with a 2011-2012 Walmart retail dataset.
+- RetailDemandForecasting contains work on feature engineering and demand forecasting of weekly companywide sales with a 2011-2012 Walmart retail dataset.
 
-- SongAnalytica.ipynb contains code that prototypes using a statistical model (XGBoost) to predict whether U.S. presidents' re-election chances are correlated with approval rating features. Inspired by the following [Wikipedia article](https://en.wikipedia.org/wiki/United_States_presidential_approval_rating).
+- SongAnalytica contains code that prototypes using a statistical model (XGBoost) to predict whether U.S. presidents' re-election chances are correlated with approval rating features. Inspired by the following [Wikipedia article](https://en.wikipedia.org/wiki/United_States_presidential_approval_rating).
