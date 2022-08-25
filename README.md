@@ -12,4 +12,4 @@
 
 - RetailDemandForecasting contains work on feature engineering and demand forecasting of weekly companywide sales with a 2011-2012 Walmart retail dataset.
 
-- SongAnalytica contains code that prototypes using a statistical model (XGBoost) to predict whether U.S. presidents' re-election chances are correlated with approval rating features. Inspired by the following [Wikipedia article](https://en.wikipedia.org/wiki/United_States_presidential_approval_rating).
+- SongAnalytica contains code that prototypes using a statistical model (XGBoost) to determine whether U.S. presidents' re-election chances are correlated with approval rating features. Inspired by the following [Wikipedia article](https://en.wikipedia.org/wiki/United_States_presidential_approval_rating).
