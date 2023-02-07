@@ -1,5 +1,7 @@
 # MachineLearning
 
+- Alzheimers contains a data science project for predicting Alzheimer's disease status from RNA expression data, across 25k genes, for postmortem human and mouse brain tissue.
+
 - RealEstatePrediction contains an encoded XGBoost regression model (trained with randomized grid search and 5-fold cross-validation) and an IPython notebook that implements code for predicting 2021 estimated full cash values from 2016-2020 housing data in the Tuscon, Arizona real estate market (test root mean squared error of $8,568 for a dataset of 101,661 homes).
 
 - AnthemMiniProject contains a data science project for predicting the chance of insurance policy renewals with XGBoost.
