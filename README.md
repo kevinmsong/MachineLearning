@@ -1,17 +1,32 @@
 # MachineLearning
 
-- Alzheimers contains a data science project for predicting Alzheimer's disease status from RNA expression data (with 5-fold cross-validation and 92% macro average F1 score), across 25k genes, for a small sample of postmortem human and mouse brain tissue.
+Notebooks and small projects implementing classical ML workflows (mostly XGBoost and from-scratch baselines), separate from neural-network work in [NeuralNetworks](https://github.com/kevinmsong/NeuralNetworks).
 
-- RealEstatePrediction contains an encoded XGBoost regression model (trained with randomized grid search and 5-fold cross-validation) and an IPython notebook that implements code for predicting 2021 estimated full cash values from 2016-2020 housing data in the Tuscon, Arizona real estate market (test root mean squared error of $8,568 for a dataset of 101,661 homes).
+## Projects
 
-- AnthemMiniProject contains a data science project for predicting the chance of insurance policy renewals with XGBoost.
+| Path | Summary |
+|------|---------|
+| `Alzheimers/` | Predict Alzheimer’s disease status from RNA expression (~25k genes; 5-fold CV; reported ~92% macro F1) on a small postmortem human/mouse brain sample |
+| `RealEstatePrediction/` | Encoded XGBoost regression for 2021 estimated full cash values from 2016–2020 Tucson, AZ housing data (reported test RMSE ~$8,568 on 101,661 homes) |
+| `AnthemMiniProject.ipynb` | XGBoost model for insurance policy renewal chance |
+| `CostEffectiveMaintenance.ipynb` | Feature engineering + XGBoost classifier for cost-effective vs cost-ineffective truck maintenance (data originally hosted on MySQL) |
+| `KNearestNeighbors.ipynb` | From-scratch 2D k-NN regression |
+| `LinearRegression.ipynb` | From-scratch linear regression (no scikit-learn estimator) |
+| `RetailDemandForecasting.ipynb` | Feature engineering and weekly demand forecasting on a 2011–2012 Walmart retail dataset |
+| `SongAnalytica.ipynb` | XGBoost prototype relating U.S. presidential approval features to re-election chances ([approval-rating context](https://en.wikipedia.org/wiki/United_States_presidential_approval_rating)) |
 
-- CostEffectiveMaintenance contains code that exhibits data wrangling/feature engineering skills, and trains an XGBoost classifier to determine whether corporate truck maintenances from a real-life dataset (hosted on a MySQL server) are either cost-effective or cost-ineffective.
+## Setup
 
-- KNearestNeighbors contains code that implements, from scratch, a two-dimensional k-nearest neighbors regression algorithm.
+Most entries are Jupyter notebooks. Typical stack: Python 3, `pandas`, `numpy`, `scikit-learn`, `xgboost`, Jupyter.
 
-- LinearRegression contains code that implements a linear regression, from scratch, without using scikit-learn.
+```bash
+pip install jupyter pandas numpy scikit-learn xgboost
+jupyter notebook
+```
 
-- RetailDemandForecasting contains work on feature engineering and demand forecasting of weekly companywide sales with a 2011-2012 Walmart retail dataset.
+Open the notebook or folder for the project you want to explore. Some projects expect external data files that may not be checked in.
 
-- SongAnalytica contains code that prototypes using a statistical model (XGBoost) to determine whether U.S. presidents' re-election chances are correlated with approval rating features. Inspired by the following [Wikipedia article](https://en.wikipedia.org/wiki/United_States_presidential_approval_rating).
+## Notes
+
+- Metrics quoted above are as reported in the original project writeups; re-running may differ if data or package versions change.
+- For neural-network scratch work, see [NeuralNetworks](https://github.com/kevinmsong/NeuralNetworks).
